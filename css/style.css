@@ -1,1 +1,27 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+a {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.button {
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
